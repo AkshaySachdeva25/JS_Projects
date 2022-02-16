@@ -1,5 +1,19 @@
-import { Employee, getEmployeeDetails } from "./Employee.js";
+function Employee(name, sallary, age, designation) {
+    var name = name;
+    var sallary = sallary;
+    var age = age;
+    var designation = designation;
 
-const employee = new Employee("Patrik",34,999,89000);
+    function getSallary(){
+        return sallary;
+    }
+    return {
+        employeeName : name,
+        employeeAge : age,
+        empDesignation : designation
+    }
+}
+
+var employee = new Employee("Patrik",87000,32,"SDE");
 console.log(employee);
-getEmployeeDetails(employee);
+console.log(employee.getSallary);
