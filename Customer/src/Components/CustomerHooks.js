@@ -45,15 +45,3 @@ function CustomerDetails(props) {
         </tr>
     )
 }
-
-function CustomerComponent() {
-    return 
-}
-
-function ChildCustomerComponent(){
-    return (
-        <div>
-            
-        </div>
-    )
-}
